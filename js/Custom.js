@@ -186,7 +186,7 @@ $(document).ready(function() {
                 
                 $("#letter").show("drop", {direction: "down"}, "fast");
 
-                $("img#reindeer").attr("src", "imgs/good-bye2.gif");
+                $("img#reindeer").attr("src", "imgs/reindeerhide.png");
                 
                 $('#reindeer').animate({
                     right: 0
@@ -220,7 +220,7 @@ $(document).ready(function() {
                 
                 $("#letter").hide("drop", {direction: "down"}, "slow");
                 
-                $("img#reindeer").attr("src", "imgs/click-me.webp");
+                $("img#reindeer").attr("src", "imgs/reindeer.png");
                 
                 $('#reindeer').animate({
                     right: 0
